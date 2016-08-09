@@ -1,0 +1,6 @@
+framework module Pods_VRPuzzleUITests {
+  umbrella header "Pods-VRPuzzleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

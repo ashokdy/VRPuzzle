@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABEC07CA537522DD8744B9CD66DDC31 /* Pods-VRPuzzleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8803229FD340FD8272BB838908C9A06A /* Pods-VRPuzzleUITests-dummy.m */; };
+		2CE9D536FF90C3069EE42AE4FF6392A6 /* Pods-VRPuzzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0723899A23A1ED26292C988720EB6003 /* Pods-VRPuzzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4027CFEB508DC1A56CA6B4B903390EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5BB9C18EC1BDD6761DEC47AAFC7987FE /* Pods-VRPuzzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D83BA4160F4E533BDEF30A0F1492 /* Pods-VRPuzzle-dummy.m */; };
+		773FC50B96C02818A44D214BAEEDC232 /* Pods-VRPuzzleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD66D2A113CBA8694248E74A0171AC8C /* Pods-VRPuzzleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A189AF5C2EDADFBD9A1D6F6438B9DBE /* Pods-VRPuzzleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E4C4BC0C28561E98DF32FBCB162EE5 /* Pods-VRPuzzleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E2EBDAE60C32973866CAED198EF47B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BC4A3B96B40F1DE64CB6631BCE4B4B5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F53D850D56153BAB621214A8A2A38E45 /* Pods-VRPuzzleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F912FEC1B11C5C8836F2E4D0728D8 /* Pods-VRPuzzleTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B1EFE959803D1613DE6D3DDBB0BDC9 /* Pods-VRPuzzleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPuzzleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		037AD826D0D916B88C22E3CE7A55420A /* Pods-VRPuzzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		055EC20EDDFE23799DF4FC4B809E9051 /* Pods-VRPuzzleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPuzzleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0723899A23A1ED26292C988720EB6003 /* Pods-VRPuzzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPuzzle-umbrella.h"; sourceTree = "<group>"; };
+		10E4C4BC0C28561E98DF32FBCB162EE5 /* Pods-VRPuzzleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPuzzleTests-umbrella.h"; sourceTree = "<group>"; };
+		15A11C4D60B8C3DB63343C1D16840521 /* Pods-VRPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		18D1E135248C8C68241E38B9E88D83CE /* Pods-VRPuzzleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		28FEEE4023561AC8B0A7CC4A284CF20F /* Pods-VRPuzzleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRPuzzleUITests.modulemap"; sourceTree = "<group>"; };
+		401CCB148472A356C2A5E898E819111C /* Pods-VRPuzzleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRPuzzleTests.modulemap"; sourceTree = "<group>"; };
+		43639CC0A3F8249A807091C6520DBFEC /* Pods-VRPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		50660C9E99636FAF2BDAD94E0C8675C4 /* Pods-VRPuzzleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleUITests-resources.sh"; sourceTree = "<group>"; };
+		51FEE7AD42D09A9C4977FCF4D52252C3 /* Pods-VRPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		559A9DFEF074F561E6CD57B8D5C37A9B /* Pods-VRPuzzle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzle-resources.sh"; sourceTree = "<group>"; };
+		594B8C8CD05E8AA6D8C76AA06E06BFFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA47B0C4952C99C36F2890D6041D760 /* Pods_VRPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1C5A7BCE41D7E3508965C448E350E6 /* Pods-VRPuzzleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74EBB40F7514B1E894757B52C6ACDD98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6025089671EC6022102F7BC4DE6F83 /* Pods-VRPuzzleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleTests-frameworks.sh"; sourceTree = "<group>"; };
+		8803229FD340FD8272BB838908C9A06A /* Pods-VRPuzzleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPuzzleUITests-dummy.m"; sourceTree = "<group>"; };
+		8B1F912FEC1B11C5C8836F2E4D0728D8 /* Pods-VRPuzzleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPuzzleTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D3103913A32FAAA1AE1D457282DF091 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B071C4DABC7B22FBB3CA889641F07D98 /* Pods-VRPuzzle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzle-frameworks.sh"; sourceTree = "<group>"; };
+		B9F9D83BA4160F4E533BDEF30A0F1492 /* Pods-VRPuzzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPuzzle-dummy.m"; sourceTree = "<group>"; };
+		BB6059219B80445CC9112CE88706CF1C /* Pods-VRPuzzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRPuzzle.modulemap"; sourceTree = "<group>"; };
+		BB6F663243F586FF46F14C7E7F3CD732 /* Pods-VRPuzzle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPuzzle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD66D2A113CBA8694248E74A0171AC8C /* Pods-VRPuzzleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPuzzleUITests-umbrella.h"; sourceTree = "<group>"; };
+		C20DEC72D3F3C0C141B6D54E0C386D2A /* Pods-VRPuzzleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4EB257A2A9DF762131A8DA04BA49986 /* Pods-VRPuzzleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPuzzleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6C99BD668297CF06D25D703C13EC099 /* Pods-VRPuzzle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPuzzle-acknowledgements.plist"; sourceTree = "<group>"; };
+		E352573FF8D79DDEFDDB5F82DA4F0601 /* Pods-VRPuzzleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPuzzleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5AEB8600CCD5E7E84CAF37881C25AB7 /* Pods-VRPuzzleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleTests-resources.sh"; sourceTree = "<group>"; };
+		EB4DBC621AF5A5464330E80CF13ACD85 /* Pods_VRPuzzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE54BC84A87EB26177E20426D4EEA784 /* Pods_VRPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767CBD0A34EC0C514AC8333C06696937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4A3B96B40F1DE64CB6631BCE4B4B5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1C52F6387527042F8A2DFA29CBED75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4027CFEB508DC1A56CA6B4B903390EBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3B390A3CAC04102ADB908CCEA0AD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E2EBDAE60C32973866CAED198EF47B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300ACEB9BEB6A9A756083CE254C449FB /* Pods-VRPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				594B8C8CD05E8AA6D8C76AA06E06BFFB /* Info.plist */,
+				401CCB148472A356C2A5E898E819111C /* Pods-VRPuzzleTests.modulemap */,
+				D4EB257A2A9DF762131A8DA04BA49986 /* Pods-VRPuzzleTests-acknowledgements.markdown */,
+				055EC20EDDFE23799DF4FC4B809E9051 /* Pods-VRPuzzleTests-acknowledgements.plist */,
+				8B1F912FEC1B11C5C8836F2E4D0728D8 /* Pods-VRPuzzleTests-dummy.m */,
+				7C6025089671EC6022102F7BC4DE6F83 /* Pods-VRPuzzleTests-frameworks.sh */,
+				E5AEB8600CCD5E7E84CAF37881C25AB7 /* Pods-VRPuzzleTests-resources.sh */,
+				10E4C4BC0C28561E98DF32FBCB162EE5 /* Pods-VRPuzzleTests-umbrella.h */,
+				037AD826D0D916B88C22E3CE7A55420A /* Pods-VRPuzzleTests.debug.xcconfig */,
+				C20DEC72D3F3C0C141B6D54E0C386D2A /* Pods-VRPuzzleTests.release.xcconfig */,
+			);
+			name = "Pods-VRPuzzleTests";
+			path = "Target Support Files/Pods-VRPuzzleTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73CAB17DBD54CA616873D6E4C49A3B41 /* Pods-VRPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				9D3103913A32FAAA1AE1D457282DF091 /* Info.plist */,
+				BB6059219B80445CC9112CE88706CF1C /* Pods-VRPuzzle.modulemap */,
+				BB6F663243F586FF46F14C7E7F3CD732 /* Pods-VRPuzzle-acknowledgements.markdown */,
+				D6C99BD668297CF06D25D703C13EC099 /* Pods-VRPuzzle-acknowledgements.plist */,
+				B9F9D83BA4160F4E533BDEF30A0F1492 /* Pods-VRPuzzle-dummy.m */,
+				B071C4DABC7B22FBB3CA889641F07D98 /* Pods-VRPuzzle-frameworks.sh */,
+				559A9DFEF074F561E6CD57B8D5C37A9B /* Pods-VRPuzzle-resources.sh */,
+				0723899A23A1ED26292C988720EB6003 /* Pods-VRPuzzle-umbrella.h */,
+				15A11C4D60B8C3DB63343C1D16840521 /* Pods-VRPuzzle.debug.xcconfig */,
+				43639CC0A3F8249A807091C6520DBFEC /* Pods-VRPuzzle.release.xcconfig */,
+			);
+			name = "Pods-VRPuzzle";
+			path = "Target Support Files/Pods-VRPuzzle";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ADE01924F48E19D9D084E7F078D7BB40 /* Products */,
+				CFC921C314A3BDFFE89D6BB45429C0CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87C53B6A14C120B0AB9A592FBF12F913 /* Pods-VRPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74EBB40F7514B1E894757B52C6ACDD98 /* Info.plist */,
+				28FEEE4023561AC8B0A7CC4A284CF20F /* Pods-VRPuzzleUITests.modulemap */,
+				E352573FF8D79DDEFDDB5F82DA4F0601 /* Pods-VRPuzzleUITests-acknowledgements.markdown */,
+				00B1EFE959803D1613DE6D3DDBB0BDC9 /* Pods-VRPuzzleUITests-acknowledgements.plist */,
+				8803229FD340FD8272BB838908C9A06A /* Pods-VRPuzzleUITests-dummy.m */,
+				18D1E135248C8C68241E38B9E88D83CE /* Pods-VRPuzzleUITests-frameworks.sh */,
+				50660C9E99636FAF2BDAD94E0C8675C4 /* Pods-VRPuzzleUITests-resources.sh */,
+				BD66D2A113CBA8694248E74A0171AC8C /* Pods-VRPuzzleUITests-umbrella.h */,
+				51FEE7AD42D09A9C4977FCF4D52252C3 /* Pods-VRPuzzleUITests.debug.xcconfig */,
+				6C1C5A7BCE41D7E3508965C448E350E6 /* Pods-VRPuzzleUITests.release.xcconfig */,
+			);
+			name = "Pods-VRPuzzleUITests";
+			path = "Target Support Files/Pods-VRPuzzleUITests";
+			sourceTree = "<group>";
+		};
+		ADE01924F48E19D9D084E7F078D7BB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE54BC84A87EB26177E20426D4EEA784 /* Pods_VRPuzzle.framework */,
+				6AA47B0C4952C99C36F2890D6041D760 /* Pods_VRPuzzleTests.framework */,
+				EB4DBC621AF5A5464330E80CF13ACD85 /* Pods_VRPuzzleUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFC921C314A3BDFFE89D6BB45429C0CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CAB17DBD54CA616873D6E4C49A3B41 /* Pods-VRPuzzle */,
+				300ACEB9BEB6A9A756083CE254C449FB /* Pods-VRPuzzleTests */,
+				87C53B6A14C120B0AB9A592FBF12F913 /* Pods-VRPuzzleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10216566183D136D9721F0A334AF8A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE9D536FF90C3069EE42AE4FF6392A6 /* Pods-VRPuzzle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C802E8DD8ED76D272E651163834EC8B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773FC50B96C02818A44D214BAEEDC232 /* Pods-VRPuzzleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36475C66CE03EA0019A368D98C4BA13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A189AF5C2EDADFBD9A1D6F6438B9DBE /* Pods-VRPuzzleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		174D379F11CEF2956B2162D590889DDF /* Pods-VRPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A3D8866B013539EFCEC71B1ADBEA10 /* Build configuration list for PBXNativeTarget "Pods-VRPuzzleUITests" */;
+			buildPhases = (
+				4ABD36C988184FF2F989174638174D7D /* Sources */,
+				DD3B390A3CAC04102ADB908CCEA0AD27 /* Frameworks */,
+				C802E8DD8ED76D272E651163834EC8B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VRPuzzleUITests";
+			productName = "Pods-VRPuzzleUITests";
+			productReference = EB4DBC621AF5A5464330E80CF13ACD85 /* Pods_VRPuzzleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F6AAEBFF81448BE30280CDA62C1D687 /* Pods-VRPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910ABB430F9C2893FAE9A1F13F5F3120 /* Build configuration list for PBXNativeTarget "Pods-VRPuzzle" */;
+			buildPhases = (
+				AFC5DD54DACE0F332A9444D363B4F8DC /* Sources */,
+				8F1C52F6387527042F8A2DFA29CBED75 /* Frameworks */,
+				10216566183D136D9721F0A334AF8A9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VRPuzzle";
+			productName = "Pods-VRPuzzle";
+			productReference = FE54BC84A87EB26177E20426D4EEA784 /* Pods_VRPuzzle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3368BCB65519389CC33D9CDF2D35DD1 /* Pods-VRPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0A8179097C8292A2EE9FB076226C74 /* Build configuration list for PBXNativeTarget "Pods-VRPuzzleTests" */;
+			buildPhases = (
+				AF492D476C0961E53246121E74D6435F /* Sources */,
+				767CBD0A34EC0C514AC8333C06696937 /* Frameworks */,
+				D36475C66CE03EA0019A368D98C4BA13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VRPuzzleTests";
+			productName = "Pods-VRPuzzleTests";
+			productReference = 6AA47B0C4952C99C36F2890D6041D760 /* Pods_VRPuzzleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ADE01924F48E19D9D084E7F078D7BB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F6AAEBFF81448BE30280CDA62C1D687 /* Pods-VRPuzzle */,
+				A3368BCB65519389CC33D9CDF2D35DD1 /* Pods-VRPuzzleTests */,
+				174D379F11CEF2956B2162D590889DDF /* Pods-VRPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABD36C988184FF2F989174638174D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABEC07CA537522DD8744B9CD66DDC31 /* Pods-VRPuzzleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF492D476C0961E53246121E74D6435F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53D850D56153BAB621214A8A2A38E45 /* Pods-VRPuzzleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC5DD54DACE0F332A9444D363B4F8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB9C18EC1BDD6761DEC47AAFC7987FE /* Pods-VRPuzzle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0366AB078B9E61F4AC13AFD05E7132BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037AD826D0D916B88C22E3CE7A55420A /* Pods-VRPuzzleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRPuzzleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRPuzzleTests/Pods-VRPuzzleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRPuzzleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28F0657365EBA5E7B7940FF90D6DD95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FEE7AD42D09A9C4977FCF4D52252C3 /* Pods-VRPuzzleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRPuzzleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRPuzzleUITests/Pods-VRPuzzleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRPuzzleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		305091ABC1466A7A0CE0E322B6BB2CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1C5A7BCE41D7E3508965C448E350E6 /* Pods-VRPuzzleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRPuzzleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRPuzzleUITests/Pods-VRPuzzleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRPuzzleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A6B1FB7DCF48CCAECA3C98BEDF3A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A11C4D60B8C3DB63343C1D16840521 /* Pods-VRPuzzle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRPuzzle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRPuzzle/Pods-VRPuzzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRPuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57425A55407F98FAC83962BB9E9B82FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20DEC72D3F3C0C141B6D54E0C386D2A /* Pods-VRPuzzleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRPuzzleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRPuzzleTests/Pods-VRPuzzleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRPuzzleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1831751229D29FEB153AFA70F9BC09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43639CC0A3F8249A807091C6520DBFEC /* Pods-VRPuzzle.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRPuzzle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRPuzzle/Pods-VRPuzzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRPuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A3D8866B013539EFCEC71B1ADBEA10 /* Build configuration list for PBXNativeTarget "Pods-VRPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F0657365EBA5E7B7940FF90D6DD95A /* Debug */,
+				305091ABC1466A7A0CE0E322B6BB2CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0A8179097C8292A2EE9FB076226C74 /* Build configuration list for PBXNativeTarget "Pods-VRPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0366AB078B9E61F4AC13AFD05E7132BF /* Debug */,
+				57425A55407F98FAC83962BB9E9B82FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910ABB430F9C2893FAE9A1F13F5F3120 /* Build configuration list for PBXNativeTarget "Pods-VRPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A6B1FB7DCF48CCAECA3C98BEDF3A57 /* Debug */,
+				B1831751229D29FEB153AFA70F9BC09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

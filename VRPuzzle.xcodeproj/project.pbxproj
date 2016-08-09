@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496D54A3C3B55B754CC8AFDA /* Pods_VRPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E02B70AFF0C558B3C48D89E /* Pods_VRPuzzle.framework */; };
 		A6E0B1681D5978A40035F6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0B1671D5978A40035F6FB /* AppDelegate.swift */; };
 		A6E0B16A1D5978A40035F6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0B1691D5978A40035F6FB /* ViewController.swift */; };
 		A6E0B16D1D5978A40035F6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E0B16B1D5978A40035F6FB /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		A6E0B1751D5978A40035F6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E0B1731D5978A40035F6FB /* LaunchScreen.storyboard */; };
 		A6E0B1801D5978A40035F6FB /* VRPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0B17F1D5978A40035F6FB /* VRPuzzleTests.swift */; };
 		A6E0B18B1D5978A40035F6FB /* VRPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0B18A1D5978A40035F6FB /* VRPuzzleUITests.swift */; };
+		E2D11722F35DE4B13C76B139 /* Pods_VRPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A52F32CAB78FD5CD44FFA0 /* Pods_VRPuzzleTests.framework */; };
+		E726690772470DB39D7AED0F /* Pods_VRPuzzleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0534870B4AF8F294676D0133 /* Pods_VRPuzzleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0534870B4AF8F294676D0133 /* Pods_VRPuzzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AB09569C3FB775634FC9D7 /* Pods-VRPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRPuzzleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRPuzzleUITests/Pods-VRPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBBC22E58FE08A14FC386C9 /* Pods-VRPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRPuzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRPuzzle/Pods-VRPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		5E02B70AFF0C558B3C48D89E /* Pods_VRPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E701B6673CBEEFA36C9551 /* Pods-VRPuzzleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRPuzzleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRPuzzleTests/Pods-VRPuzzleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8201D7B8BE2A9EF306813818 /* Pods-VRPuzzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRPuzzleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRPuzzleTests/Pods-VRPuzzleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A40778313BA9FB338FB9B6F /* Pods-VRPuzzleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRPuzzleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRPuzzleUITests/Pods-VRPuzzleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A6E0B1641D5978A30035F6FB /* VRPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E0B1671D5978A40035F6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E0B1691D5978A40035F6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		A6E0B1861D5978A40035F6FB /* VRPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E0B18A1D5978A40035F6FB /* VRPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPuzzleUITests.swift; sourceTree = "<group>"; };
 		A6E0B18C1D5978A40035F6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2DC33CF8AED4EA2E8FCBB8 /* Pods-VRPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRPuzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRPuzzle/Pods-VRPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		F2A52F32CAB78FD5CD44FFA0 /* Pods_VRPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496D54A3C3B55B754CC8AFDA /* Pods_VRPuzzle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D11722F35DE4B13C76B139 /* Pods_VRPuzzleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E726690772470DB39D7AED0F /* Pods_VRPuzzleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92E94A4FDCF63F4466EC4AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E02B70AFF0C558B3C48D89E /* Pods_VRPuzzle.framework */,
+				F2A52F32CAB78FD5CD44FFA0 /* Pods_VRPuzzleTests.framework */,
+				0534870B4AF8F294676D0133 /* Pods_VRPuzzleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C4B7BF67039C5FB82AD58B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EBBC22E58FE08A14FC386C9 /* Pods-VRPuzzle.debug.xcconfig */,
+				EA2DC33CF8AED4EA2E8FCBB8 /* Pods-VRPuzzle.release.xcconfig */,
+				8201D7B8BE2A9EF306813818 /* Pods-VRPuzzleTests.debug.xcconfig */,
+				67E701B6673CBEEFA36C9551 /* Pods-VRPuzzleTests.release.xcconfig */,
+				20AB09569C3FB775634FC9D7 /* Pods-VRPuzzleUITests.debug.xcconfig */,
+				9A40778313BA9FB338FB9B6F /* Pods-VRPuzzleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A6E0B15B1D5978A30035F6FB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				A6E0B17E1D5978A40035F6FB /* VRPuzzleTests */,
 				A6E0B1891D5978A40035F6FB /* VRPuzzleUITests */,
 				A6E0B1651D5978A30035F6FB /* Products */,
+				9C4B7BF67039C5FB82AD58B3 /* Pods */,
+				92E94A4FDCF63F4466EC4AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E0B18F1D5978A40035F6FB /* Build configuration list for PBXNativeTarget "VRPuzzle" */;
 			buildPhases = (
+				1F72A937BB09492C1FC866B5 /* [CP] Check Pods Manifest.lock */,
 				A6E0B1601D5978A30035F6FB /* Sources */,
 				A6E0B1611D5978A30035F6FB /* Frameworks */,
 				A6E0B1621D5978A30035F6FB /* Resources */,
+				187B2082C411BEE21C446D49 /* [CP] Embed Pods Frameworks */,
+				B328FA26E7EC2DB374BB8CAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E0B1921D5978A40035F6FB /* Build configuration list for PBXNativeTarget "VRPuzzleTests" */;
 			buildPhases = (
+				86484D6F7BB93A125ADC9EF6 /* [CP] Check Pods Manifest.lock */,
 				A6E0B1771D5978A40035F6FB /* Sources */,
 				A6E0B1781D5978A40035F6FB /* Frameworks */,
 				A6E0B1791D5978A40035F6FB /* Resources */,
+				215E949D66F3C0BBEC652AEE /* [CP] Embed Pods Frameworks */,
+				3EE62445A1C232EB09285EE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E0B1951D5978A40035F6FB /* Build configuration list for PBXNativeTarget "VRPuzzleUITests" */;
 			buildPhases = (
+				3332AADD94E70DC1EE9A0972 /* [CP] Check Pods Manifest.lock */,
 				A6E0B1821D5978A40035F6FB /* Sources */,
 				A6E0B1831D5978A40035F6FB /* Frameworks */,
 				A6E0B1841D5978A40035F6FB /* Resources */,
+				D89E25E806E3B2B118B457A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187B2082C411BEE21C446D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRPuzzle/Pods-VRPuzzle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F72A937BB09492C1FC866B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		215E949D66F3C0BBEC652AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRPuzzleTests/Pods-VRPuzzleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3332AADD94E70DC1EE9A0972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE62445A1C232EB09285EE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRPuzzleTests/Pods-VRPuzzleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86484D6F7BB93A125ADC9EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B328FA26E7EC2DB374BB8CAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRPuzzle/Pods-VRPuzzle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89E25E806E3B2B118B457A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRPuzzleUITests/Pods-VRPuzzleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6E0B1601D5978A30035F6FB /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		A6E0B1901D5978A40035F6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBBC22E58FE08A14FC386C9 /* Pods-VRPuzzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VRPuzzle/Info.plist;
@@ -414,6 +586,7 @@
 		};
 		A6E0B1911D5978A40035F6FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2DC33CF8AED4EA2E8FCBB8 /* Pods-VRPuzzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VRPuzzle/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		A6E0B1931D5978A40035F6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8201D7B8BE2A9EF306813818 /* Pods-VRPuzzleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VRPuzzleTests/Info.plist;
@@ -437,6 +611,7 @@
 		};
 		A6E0B1941D5978A40035F6FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E701B6673CBEEFA36C9551 /* Pods-VRPuzzleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VRPuzzleTests/Info.plist;
@@ -449,6 +624,7 @@
 		};
 		A6E0B1961D5978A40035F6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AB09569C3FB775634FC9D7 /* Pods-VRPuzzleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VRPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		A6E0B1971D5978A40035F6FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A40778313BA9FB338FB9B6F /* Pods-VRPuzzleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VRPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +665,7 @@
 				A6E0B1911D5978A40035F6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6E0B1921D5978A40035F6FB /* Build configuration list for PBXNativeTarget "VRPuzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +674,7 @@
 				A6E0B1941D5978A40035F6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6E0B1951D5978A40035F6FB /* Build configuration list for PBXNativeTarget "VRPuzzleUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +683,7 @@
 				A6E0B1971D5978A40035F6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
