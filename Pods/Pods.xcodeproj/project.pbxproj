@@ -23,35 +23,54 @@
 		037AD826D0D916B88C22E3CE7A55420A /* Pods-VRPuzzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		055EC20EDDFE23799DF4FC4B809E9051 /* Pods-VRPuzzleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPuzzleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0723899A23A1ED26292C988720EB6003 /* Pods-VRPuzzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPuzzle-umbrella.h"; sourceTree = "<group>"; };
+		0E914AE8190EC4CAABD51B1A1167C024 /* libCardboardSDK_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_i386.a; path = Libraries/libCardboardSDK_i386.a; sourceTree = "<group>"; };
 		10E4C4BC0C28561E98DF32FBCB162EE5 /* Pods-VRPuzzleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPuzzleTests-umbrella.h"; sourceTree = "<group>"; };
+		1308A9E6003FED03D853626C8304FBE5 /* gvr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr.h; path = Sources/vr/gvr/capi/include/gvr.h; sourceTree = "<group>"; };
+		13D21622CD883A13F6D59A2D06FCF756 /* GVRWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRWidgetView.h; path = Sources/GVRWidgetView.h; sourceTree = "<group>"; };
 		15A11C4D60B8C3DB63343C1D16840521 /* Pods-VRPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
 		18D1E135248C8C68241E38B9E88D83CE /* Pods-VRPuzzleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		28FEEE4023561AC8B0A7CC4A284CF20F /* Pods-VRPuzzleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRPuzzleUITests.modulemap"; sourceTree = "<group>"; };
+		2C261DA5A5F14657765FF3FF02900B75 /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitDialogs.bundle; path = Resources/GoogleKitDialogs.bundle; sourceTree = "<group>"; };
+		336572154D5DD33ECE5FE023C5615BF5 /* GVRVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRVideoView.h; path = Sources/GVRVideoView.h; sourceTree = "<group>"; };
+		341D16739A834F982E7C605D2E347792 /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitHUD.bundle; path = Resources/GoogleKitHUD.bundle; sourceTree = "<group>"; };
 		401CCB148472A356C2A5E898E819111C /* Pods-VRPuzzleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRPuzzleTests.modulemap"; sourceTree = "<group>"; };
 		43639CC0A3F8249A807091C6520DBFEC /* Pods-VRPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		4F9D2A2E25790E2A188235C357685D1D /* GVRAudioEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRAudioEngine.h; path = Sources/GVRAudioEngine.h; sourceTree = "<group>"; };
 		50660C9E99636FAF2BDAD94E0C8675C4 /* Pods-VRPuzzleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleUITests-resources.sh"; sourceTree = "<group>"; };
 		51FEE7AD42D09A9C4977FCF4D52252C3 /* Pods-VRPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		559A9DFEF074F561E6CD57B8D5C37A9B /* Pods-VRPuzzle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzle-resources.sh"; sourceTree = "<group>"; };
 		594B8C8CD05E8AA6D8C76AA06E06BFFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC08A200E33231216C8EF758B3E6E96 /* GoogleKitCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitCore.bundle; path = Resources/GoogleKitCore.bundle; sourceTree = "<group>"; };
 		6AA47B0C4952C99C36F2890D6041D760 /* Pods_VRPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1C5A7BCE41D7E3508965C448E350E6 /* Pods-VRPuzzleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E821D74181FD9A04EB9198FD726BAA4 /* CardboardSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CardboardSDK.bundle; path = Resources/CardboardSDK.bundle; sourceTree = "<group>"; };
 		74EBB40F7514B1E894757B52C6ACDD98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D562056705C9DD5A013F9F7FEB9C0D /* libCardboardSDK_x86_64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_x86_64.a; path = Libraries/libCardboardSDK_x86_64.a; sourceTree = "<group>"; };
 		7C6025089671EC6022102F7BC4DE6F83 /* Pods-VRPuzzleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleTests-frameworks.sh"; sourceTree = "<group>"; };
+		7E5CA8963144622B1A4E5D97E0256F59 /* MaterialRobotoFontLoader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialRobotoFontLoader.bundle; path = Resources/MaterialRobotoFontLoader.bundle; sourceTree = "<group>"; };
+		7EB798464570049F365638DE7F43ABE7 /* GVRHeadTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRHeadTransform.h; path = Sources/GVRHeadTransform.h; sourceTree = "<group>"; };
 		8803229FD340FD8272BB838908C9A06A /* Pods-VRPuzzleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPuzzleUITests-dummy.m"; sourceTree = "<group>"; };
 		8B1F912FEC1B11C5C8836F2E4D0728D8 /* Pods-VRPuzzleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPuzzleTests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B32CE4143F7605CC96853AA86AA9C41 /* GVRPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRPanoramaView.h; path = Sources/GVRPanoramaView.h; sourceTree = "<group>"; };
 		9D3103913A32FAAA1AE1D457282DF091 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB50EE9A260C011FB5743F1D74430A60 /* libCardboardSDK_armv7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_armv7.a; path = Libraries/libCardboardSDK_armv7.a; sourceTree = "<group>"; };
+		AD60E85927ABCCDEF16995BD2D9827A9 /* gvr_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_audio.h; path = Sources/vr/gvr/capi/include/gvr_audio.h; sourceTree = "<group>"; };
+		AE3D92687510053F44ACF2EDDDB71AA2 /* libCardboardSDK_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_arm64.a; path = Libraries/libCardboardSDK_arm64.a; sourceTree = "<group>"; };
 		B071C4DABC7B22FBB3CA889641F07D98 /* Pods-VRPuzzle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzle-frameworks.sh"; sourceTree = "<group>"; };
 		B9F9D83BA4160F4E533BDEF30A0F1492 /* Pods-VRPuzzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPuzzle-dummy.m"; sourceTree = "<group>"; };
 		BB6059219B80445CC9112CE88706CF1C /* Pods-VRPuzzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRPuzzle.modulemap"; sourceTree = "<group>"; };
 		BB6F663243F586FF46F14C7E7F3CD732 /* Pods-VRPuzzle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPuzzle-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD66D2A113CBA8694248E74A0171AC8C /* Pods-VRPuzzleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPuzzleUITests-umbrella.h"; sourceTree = "<group>"; };
 		C20DEC72D3F3C0C141B6D54E0C386D2A /* Pods-VRPuzzleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPuzzleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C362AA6346B8C737247671364506ADF5 /* gvr_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_types.h; path = Sources/vr/gvr/capi/include/gvr_types.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4EB257A2A9DF762131A8DA04BA49986 /* Pods-VRPuzzleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPuzzleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6C99BD668297CF06D25D703C13EC099 /* Pods-VRPuzzle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPuzzle-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2EF9F8254B4A2165E95E8FC81901DC0 /* GVROverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVROverlayView.h; path = Sources/GVROverlayView.h; sourceTree = "<group>"; };
 		E352573FF8D79DDEFDDB5F82DA4F0601 /* Pods-VRPuzzleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPuzzleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5AEB8600CCD5E7E84CAF37881C25AB7 /* Pods-VRPuzzleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPuzzleTests-resources.sh"; sourceTree = "<group>"; };
+		E5C8AD3B74695625C2623A917820CBE3 /* GVRCardboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRCardboardView.h; path = Sources/GVRCardboardView.h; sourceTree = "<group>"; };
 		EB4DBC621AF5A5464330E80CF13ACD85 /* Pods_VRPuzzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE54BC84A87EB26177E20426D4EEA784 /* Pods_VRPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,9 +152,21 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F8F7F280B5A3796FC16DADC50D64965C /* Pods */,
 				ADE01924F48E19D9D084E7F078D7BB40 /* Products */,
 				CFC921C314A3BDFFE89D6BB45429C0CB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E011BA775C56E142A3A31006E31486B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D92687510053F44ACF2EDDDB71AA2 /* libCardboardSDK_arm64.a */,
+				AB50EE9A260C011FB5743F1D74430A60 /* libCardboardSDK_armv7.a */,
+				0E914AE8190EC4CAABD51B1A1167C024 /* libCardboardSDK_i386.a */,
+				78D562056705C9DD5A013F9F7FEB9C0D /* libCardboardSDK_x86_64.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		87C53B6A14C120B0AB9A592FBF12F913 /* Pods-VRPuzzleUITests */ = {
@@ -166,12 +197,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BB4F456F1DB805513798EB0637042E05 /* GVRSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1308A9E6003FED03D853626C8304FBE5 /* gvr.h */,
+				AD60E85927ABCCDEF16995BD2D9827A9 /* gvr_audio.h */,
+				C362AA6346B8C737247671364506ADF5 /* gvr_types.h */,
+				4F9D2A2E25790E2A188235C357685D1D /* GVRAudioEngine.h */,
+				E5C8AD3B74695625C2623A917820CBE3 /* GVRCardboardView.h */,
+				7EB798464570049F365638DE7F43ABE7 /* GVRHeadTransform.h */,
+				E2EF9F8254B4A2165E95E8FC81901DC0 /* GVROverlayView.h */,
+				9B32CE4143F7605CC96853AA86AA9C41 /* GVRPanoramaView.h */,
+				336572154D5DD33ECE5FE023C5615BF5 /* GVRVideoView.h */,
+				13D21622CD883A13F6D59A2D06FCF756 /* GVRWidgetView.h */,
+				7E011BA775C56E142A3A31006E31486B /* Frameworks */,
+				C613FA146C88D1C11A0A98CE2FC22AFA /* Resources */,
+			);
+			path = GVRSDK;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C613FA146C88D1C11A0A98CE2FC22AFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E821D74181FD9A04EB9198FD726BAA4 /* CardboardSDK.bundle */,
+				5AC08A200E33231216C8EF758B3E6E96 /* GoogleKitCore.bundle */,
+				2C261DA5A5F14657765FF3FF02900B75 /* GoogleKitDialogs.bundle */,
+				341D16739A834F982E7C605D2E347792 /* GoogleKitHUD.bundle */,
+				7E5CA8963144622B1A4E5D97E0256F59 /* MaterialRobotoFontLoader.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CFC921C314A3BDFFE89D6BB45429C0CB /* Targets Support Files */ = {
@@ -182,6 +244,14 @@
 				87C53B6A14C120B0AB9A592FBF12F913 /* Pods-VRPuzzleUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8F7F280B5A3796FC16DADC50D64965C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F456F1DB805513798EB0637042E05 /* GVRSDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

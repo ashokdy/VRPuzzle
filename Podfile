@@ -2,11 +2,11 @@
 # platform :ios, '9.0'
 
 target 'VRPuzzle' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+pod 'GVRSDK'
+# Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for VRPuzzle
-
   target 'VRPuzzleTests' do
     inherit! :search_paths
     # Pods for testing
